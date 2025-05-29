@@ -24,4 +24,5 @@ jobs:
       - name: Push Docker image
         run: |
           OWNER_LC=$(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')
-          docker push ghcr.io/${OWNER_LC}/it-landscape-andres-rivas:latest
+          docker push ghcr.io/andresrivas/it-landscape-andres-rivas:latest
+
