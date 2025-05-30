@@ -1,4 +1,5 @@
-const GREETING = 'HeLlo My name is Andres , 5 First CI-CD pipeline :) :)!';
+const GREETING =
+    'HeLlo My name is Andres and i have made een actions with github successfully';
 
 module.exports = async (req, res) => {
     res.send({
